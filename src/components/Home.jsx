@@ -1,5 +1,3 @@
-import React from "react";
-
 import pic from "../../public/photo.avif";
 
 import { FaSquareFacebook } from "react-icons/fa6";
@@ -23,13 +21,13 @@ function Home() {
       >
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
-            <span className="text-xl">Welcome In My Feed</span>
+            <span className="text-xl">Welcome To My Feed</span>
             <div className="flex space-x-1 text-2xl md:text-4xl">
               <h1>Hello, I'm a</h1>
               {/* <span >Developer</span> */}
               <ReactTyped
                 className="text-red-700 font-bold"
-                strings={["Developer", "Programmer", "Coder"]}
+                strings={["Developer", "Programmer", "Coder", "Designer"]}
                 typeSpeed={40}
                 backSpeed={50}
                 loop={true}
@@ -37,11 +35,14 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+               I'm a passionate MERN stack developer
+              with a keen interest in crafting dynamic and responsive web
+              applications. With a strong foundation in JavaScript and hands-on
+              experience in developing with MongoDB, Express.js, React, and
+              Node.js, I aim to deliver seamless and engaging digital
+              experiences. Explore my projects, learn more about my journey, and
+              feel free to reach out if you'd like to collaborate or have any
+              questions. Thank you for visiting!
             </p>
             <br />
             {/* social media icons */}
