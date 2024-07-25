@@ -21,7 +21,7 @@ function Footer() {
               <p className="text-sm">
                 &copy; 2024 Fahim Nirjon. All rights reserved.
               </p>
-              <p className="text-sm">Supportive Partner ❤️ Fahim Nirjon</p>
+              <p className="text-sm mt-3">I wish your Support and valuable recommendation. Take ❤️ from Fahim Nirjon</p>
             </div>
           </div>
         </div>
