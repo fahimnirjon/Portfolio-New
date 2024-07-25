@@ -28,7 +28,7 @@ function Contact() {
     <>
       <div
         name="Contact"
-        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
+        className="px-4 md:px-20 my-16 text-center"
       >
         <h1 className="text-3xl font-bold mb-4">Contact me</h1>
         <span>Please fill out the form below to contact me</span>
@@ -41,7 +41,7 @@ function Contact() {
           >
             <h1 className="text-xl font-semibold mb-4">Send Your Message</h1>
             <div className="flex flex-col mb-4">
-              <label className="block text-gray-700">FullName</label>
+              <label className="block text-gray-700">Your Full Name:</label>
               <input
                 {...register("name", { required: true })}
                 className="shadow rounded-lg appearance-none border  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -53,7 +53,7 @@ function Contact() {
               {errors.name && <span>This field is required</span>}
             </div>
             <div className="flex flex-col mb-4">
-              <label className="block text-gray-700">Email Address</label>
+              <label className="block text-gray-700">Email Address:</label>
               <input
                 {...register("email", { required: true })}
                 className="shadow rounded-lg appearance-none border  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -65,7 +65,7 @@ function Contact() {
               {errors.email && <span>This field is required</span>}
             </div>
             <div className="flex flex-col mb-4">
-              <label className="block text-gray-700">Message</label>
+              <label className="block text-gray-700">Your Message</label>
               <textarea
                 {...register("message", { required: true })}
                 className="shadow rounded-lg appearance-none border  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
